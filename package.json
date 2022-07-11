@@ -1,7 +1,8 @@
 {
   "name": "ra-language-swiss-german",
   "version": "4.2.2",
-  "description": "swiss-german translations for react-admin",
+  "description": "swiss-german translations for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
