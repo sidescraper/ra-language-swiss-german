@@ -1,0 +1,24 @@
+{
+  "name": "ra-language-swiss-german",
+  "version": "4.2.2",
+  "description": "swiss-german translations for react-admin",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidescraper/ra-language-swiss-german"
+  },
+  "keywords": [
+    "react",
+    "react-admin",
+    "translation"
+  ],
+  "author": "Sidescraper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidescraper/ra-language-swisss-german/issues"
+  },
+  "homepage": "https://github.com/sidescraper/ra-language-swiss-german#readme"
+}
