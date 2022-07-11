@@ -1,15 +1,17 @@
 {
-  "name": "ra-language-swiss-german",
+  "name": "@sidescraper/ra-language-swiss-german",
   "version": "4.2.2",
-  "description": "swiss-german translations for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
-",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "swiss-german translations for react-admin",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sidescraper/ra-language-swiss-german"
+  },
+  "main": "index.ts",
+  "dependencies": {
+    "ra-core": "^4.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.0"
   },
   "keywords": [
     "react",
