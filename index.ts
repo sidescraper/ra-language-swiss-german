@@ -1,6 +1,4 @@
-import { TranslationMessages } from 'ra-core';
-
-const swissgermanMessages: TranslationMessages = {
+const swissgermanMessages = {
     ra: {
         action: {
             add_filter: 'Filter hinzufügen',
