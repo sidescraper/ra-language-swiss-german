@@ -5,7 +5,7 @@ Swiss-German translations for [react-admin](https://github.com/marmelab/react-ad
 ## Installation
 
 ```sh
-npm install --save npm i https://github.com/sidescraper/ra-language-swiss-german
+npm install --save https://github.com/sidescraper/ra-language-swiss-german
 ```
 
 ## Usage
