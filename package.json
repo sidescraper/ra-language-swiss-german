@@ -1,5 +1,5 @@
 {
-  "name": "@sidescraper/ra-language-swiss-german",
+  "name": "ra-language-swiss-german",
   "version": "4.2.2",
   "description": "swiss-german translations for react-admin",
   "repository": {
