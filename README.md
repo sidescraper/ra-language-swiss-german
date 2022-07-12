@@ -11,14 +11,16 @@ npm install --save https://github.com/sidescraper/ra-language-swiss-german
 ## Usage
 
 ```js
-import swissgermanMessages from 'ra-language-swiss-german';
+import polyglotI18nProvider from 'ra-i18n-polyglot';
+import en from 'ra-language-english';
+import ch from 'ra-language-swiss-german';
 
-const messages = {
-    'ch': swissgermanMessages,
-};
-const i18nProvider = locale => messages[locale];
+const translations = { en, ch };
+export const i18nProvider = polyglotI18nProvider(locale => translations[locale], 'ch');
 
-<Admin locale="ch" i18nProvider={i18nProvider}>
+<Admin
+  i18nProvider={i18nProvider}
+>
   ...
 </Admin>
 ```
