@@ -79,7 +79,7 @@ const swissgermanMessages = {
             about: 'Über',
             are_you_sure: 'Sind Sie sicher?',
             auth_error:
-                'Beim Validieren des Authentifizierungstokens ist ein Fehler aufgetreten.
+                'Beim Validieren des Authentifizierungstokens ist ein Fehler aufgetreten.',
             bulk_delete_content:
                 'Möchten Sie %{name} wirklich löschen? |||| Möchten Sie diese %{smart_count} Elemente wirklich löschen?',
             bulk_delete_title:
