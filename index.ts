@@ -6,6 +6,7 @@ const swissgermanMessages = {
             back: 'Zurück',
             bulk_actions: 'Ein Element ausgewählt |||| %{smart_count} Elemente ausgewählt',
             cancel: 'Abbrechen',
+            clear_array_input: 'Listen löschen',
             clear_input_value: 'Eingabe löschen',
             clone: 'Klonen',
             confirm: 'Bestätigen',
@@ -17,6 +18,7 @@ const swissgermanMessages = {
             list: 'Liste',
             refresh: 'Aktualisieren',
             remove_filter: 'Filter entfernen',
+            remove_all_filters: 'Entferne alle Filter',
             remove: 'Entfernen',
             save: 'Speichern',
             search: 'Suchen',
@@ -35,6 +37,7 @@ const swissgermanMessages = {
             move_down: 'Nach unten',
             open: 'Öffnen',
             toggle_theme: 'Thema umschalten',
+            select_columns: 'Spalten',
         },
         boolean: {
             true: 'Ja',
@@ -75,6 +78,8 @@ const swissgermanMessages = {
         message: {
             about: 'Über',
             are_you_sure: 'Sind Sie sicher?',
+            auth_error:
+                'Beim Validieren des Authentifizierungstokens ist ein Fehler aufgetreten.
             bulk_delete_content:
                 'Möchten Sie %{name} wirklich löschen? |||| Möchten Sie diese %{smart_count} Elemente wirklich löschen?',
             bulk_delete_title:
@@ -106,7 +111,7 @@ const swissgermanMessages = {
             page_out_from_begin: 'Erste Seite',
             page_range_info: '%{offsetBegin}-%{offsetEnd} von %{total}',
             partial_page_range_info:
-                '%{offsetBegin}-%{offsetEnd} of more than %{offsetEnd}',
+                '%{offsetBegin}-%{offsetEnd} von mehr als %{offsetEnd}',
             current_page: 'Page %{page}',
             page: 'Gehe zu Seite %{page}',
             first: 'Erste Seite',
@@ -167,6 +172,31 @@ const swissgermanMessages = {
             remove_message:
                 'Sind Sie sicher, dass Sie den Eintrag aus der Liste entfernen möchten',
             help: 'Liste filtern und Abfrage speichern...',
+        },
+        configurable: {
+            customize: 'Anpassen',
+            configureMode: 'Seite anpassen',
+            inspector: {
+                title: 'Inspektor',
+                content: 'Bewegen den Mauszeiger über die UI-Elemente der Anwendung, um diese zu konfigurieren',
+                reset: 'Einstellungen zurücksetzen',
+                hideAll: 'Alles ausblenden',
+                showAll: 'Alles einblenden',
+            },
+            Datagrid: {
+                title: 'Datengrid',
+                unlabeled: 'Unbeschrifte Spalte #%{column}',
+            },
+            SimpleForm: {
+                title: 'Formular',
+                unlabeled: 'Unbeschriftete Eingabe #%{input}',
+            },
+            SimpleList: {
+                title: 'List',
+                primaryText: 'Erster Text',
+                secondaryText: 'Zweiter Text',
+                tertiaryText: 'Tertiär Text',
+            },
         },
     },
 };
