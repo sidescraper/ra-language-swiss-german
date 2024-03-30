@@ -38,6 +38,7 @@ const swissgermanMessages = {
             open: 'Öffnen',
             toggle_theme: 'Thema umschalten',
             select_columns: 'Spalten',
+            update_application: 'Programm neuladen',
         },
         boolean: {
             true: 'Ja',
@@ -88,6 +89,7 @@ const swissgermanMessages = {
                 'Möchten Sie %{name} wirklich aktualisieren? |||| Möchten Sie diese %{smart_count} Elemente wirklich aktualisieren?',
             bulk_update_title:
                 'Update %{name} |||| Update %{smart_count} %{name}',
+            clear_array_input: 'Sind Sie sicher, dass Sie die gesamte Liste löschen möchten?',
             delete_content: 'Möchten Sie diesen Inhalt wirklich löschen?',
             delete_title: 'Lösche %{name} #%{id}',
             details: 'Details',
@@ -149,6 +151,7 @@ const swissgermanMessages = {
             canceled: 'Aktion abgebrochen',
             logged_out: 'Ihre Sitzung wurde beendet, bitte verbinden Sie sich neu.',
             not_authorized: "Sie haben für diese Ressource keine Zugriffsrechte.",
+            application_update_available: 'A new version is available.',
         },
         validation: {
             required: 'Benötigt',
@@ -160,6 +163,7 @@ const swissgermanMessages = {
             email: 'Bitte eine gültige E-Mail eingeben',
             oneOf: 'Es muss einer sein von: %{options}',
             regex: 'Es muss folgendem regulären Ausdruck entsprechen: %{pattern}',
+            unique: 'Muss einmalig sein',
         },
         saved_queries: {
             label: 'Abfrage speichern',
