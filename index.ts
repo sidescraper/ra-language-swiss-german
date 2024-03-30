@@ -38,7 +38,7 @@ const swissgermanMessages = {
             open: 'Öffnen',
             toggle_theme: 'Thema umschalten',
             select_columns: 'Spalten',
-            update_application: 'Programm neuladen',
+            update_application: 'Programm neu laden',
         },
         boolean: {
             true: 'Ja',
@@ -151,7 +151,7 @@ const swissgermanMessages = {
             canceled: 'Aktion abgebrochen',
             logged_out: 'Ihre Sitzung wurde beendet, bitte verbinden Sie sich neu.',
             not_authorized: "Sie haben für diese Ressource keine Zugriffsrechte.",
-            application_update_available: 'A new version is available.',
+            application_update_available: 'Eine neue Programmversion ist verfügbar...',
         },
         validation: {
             required: 'Benötigt',
@@ -163,7 +163,7 @@ const swissgermanMessages = {
             email: 'Bitte eine gültige E-Mail eingeben',
             oneOf: 'Es muss einer sein von: %{options}',
             regex: 'Es muss folgendem regulären Ausdruck entsprechen: %{pattern}',
-            unique: 'Muss einmalig sein',
+            unique: 'Wert muss einmalig sein',
         },
         saved_queries: {
             label: 'Abfrage speichern',
