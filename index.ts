@@ -6,7 +6,7 @@ const swissgermanMessages = {
             back: 'Zurück',
             bulk_actions: 'Ein Element ausgewählt |||| %{smart_count} Elemente ausgewählt',
             cancel: 'Abbrechen',
-            clear_array_input: 'Listen löschen',
+            clear_array_input: 'Liste löschen',
             clear_input_value: 'Eingabe löschen',
             clone: 'Klonen',
             confirm: 'Bestätigen',
@@ -43,7 +43,7 @@ const swissgermanMessages = {
         boolean: {
             true: 'Ja',
             false: 'Nein',
-            null: ' ',
+            null: ' ',
         },
         page: {
             create: '%{name} erstellen',
@@ -56,20 +56,27 @@ const swissgermanMessages = {
             show: '%{name} #%{id}',
             empty: 'Noch kein %{name}.',
             invite: 'Neu erstellen?',
+            access_denied: 'Zugriff verweigert',
+            authentication_error: 'Anmeldung ist fehlgeschlagen',
         },
         input: {
             file: {
-                upload_several: 'Zum Hochladen: Dateien hineinziehen oder hier klicken, um Dateien auszuwählen.',
+                upload_several:
+                    'Zum Hochladen: Dateien hineinziehen oder hier klicken, um Dateien auszuwählen.',
                 upload_single: 'Zum Hochladen: Datei hineinziehen oder hier klicken, um eine Datei auszuwählen.',
             },
             image: {
-                upload_several: 'Zum Hochladen: Bilder hineinziehen oder hier klicken, um Bilder auszuwählen.',
-                upload_single: 'Zum Hochladen: Bild hineinziehen oder hier klicken, um ein Bild auszuwählen.',
+                upload_several:
+                    'Zum Hochladen: Bilder hineinziehen oder hier klicken, um Bilder auszuwählen.',
+                upload_single:
+                    'Zum Hochladen: Bild hineinziehen oder hier klicken, um ein Bild auszuwählen.',
             },
             references: {
                 all_missing: 'Die zugehörigen Referenzen konnten nicht gefunden werden.',
-                many_missing: 'Mindestens eine der zugehörigen Referenzen scheint nicht mehr verfügbar zu sein.',
-                single_missing: 'Eine zugehörige Referenz scheint nicht mehr verfügbar zu sein.',
+                many_missing:
+                    'Mindestens eine der zugehörigen Referenzen scheint nicht mehr verfügbar zu sein.',
+                single_missing:
+                    'Eine zugehörige Referenz scheint nicht mehr verfügbar zu sein.',
             },
             password: {
                 toggle_visible: 'Passwort ausblenden',
@@ -78,33 +85,39 @@ const swissgermanMessages = {
         },
         message: {
             about: 'Über',
-            are_you_sure: 'Sind Sie sicher?',
+            are_you_sure: 'Bist Du sicher?',
             auth_error:
                 'Beim Validieren des Authentifizierungstokens ist ein Fehler aufgetreten.',
             bulk_delete_content:
-                'Möchten Sie %{name} wirklich löschen? |||| Möchten Sie diese %{smart_count} Elemente wirklich löschen?',
+                'Möchtest Du %{name} wirklich löschen? |||| Möchtest Du diese %{smart_count} Elemente wirklich löschen?',
             bulk_delete_title:
                 'Lösche %{name} |||| Lösche %{smart_count} %{name} Elemente',
             bulk_update_content:
-                'Möchten Sie %{name} wirklich aktualisieren? |||| Möchten Sie diese %{smart_count} Elemente wirklich aktualisieren?',
+                'Möchtest Du %{name} wirklich aktualisieren? |||| Möchtest Du diese %{smart_count} Elemente wirklich aktualisieren?',
             bulk_update_title:
                 'Update %{name} |||| Update %{smart_count} %{name}',
-            clear_array_input: 'Sind Sie sicher, dass Sie die gesamte Liste löschen möchten?',
-            delete_content: 'Möchten Sie diesen Inhalt wirklich löschen?',
+            clear_array_input: 'Bist Du sicher, dass Du die gesamte Liste löschen möchten?',
+            delete_content: 'Möchtest Du diesen Inhalt wirklich löschen?',
             delete_title: 'Lösche %{name} #%{id}',
             details: 'Details',
             error:
                 'Ein Fehler ist aufgetreten und Ihre Anfrage konnte nicht abgeschlossen werden.',
-            invalid_form: 'Das Formular ist ungültig. Bitte überprüfen Sie Ihre Eingaben.',
-            loading: 'Die Seite wird geladen, bitte haben Sie etwas Geduld.',
+            invalid_form: 'Das Formular ist ungültig. Bitte überprüfe Deine Eingaben.',
+            loading: 'Die Seite wird geladen, bitte habe etwas Geduld.',
             no: 'Nein',
             not_found:
                 'Die Seite konnte nicht gefunden werden.',
             yes: 'Ja',
             unsaved_changes:
-                'Einige Änderungen wurden nicht gespeichert. Sind Sie sicher, dass Sie diese Seite verlassen wollen?',
+                'Einige Änderungen wurden nicht gespeichert. Bist Du sicher, dass Du diese Seite verlassen wollen?',
+            access_denied:
+                "Du verfügst nicht über die erforderlichen Berechtigungen, um auf diese Seite zuzugreifen.",
+            authentication_error:
+                'Der Authentifizierungsserver hat einen Fehler zurückgegeben und Deine Anmeldeinformationen konnten nicht überprüft werden.',
         },
         navigation: {
+            clear_filters: 'Filter löschen',
+            no_filtered_results: '%{name} wurde im aktuellen Filter nicht gefunden.',
             no_results: 'Keine Resultate gefunden',
             no_more_results:
                 'Die Seite %{page} enthält keine Inhalte.',
@@ -114,7 +127,7 @@ const swissgermanMessages = {
             page_range_info: '%{offsetBegin}-%{offsetEnd} von %{total}',
             partial_page_range_info:
                 '%{offsetBegin}-%{offsetEnd} von mehr als %{offsetEnd}',
-            current_page: 'Page %{page}',
+            current_page: 'Seite %{page}',
             page: 'Gehe zu Seite %{page}',
             first: 'Erste Seite',
             last: 'Letzte Seite',
@@ -124,12 +137,12 @@ const swissgermanMessages = {
             skip_nav: 'Zum Inhalt springen',
         },
         sort: {
-            sort_by: 'Sortieren nach %{field} %{order}',
+            sort_by: 'Sortieren nach %{field_lower_first} %{order}',
             ASC: 'aufsteigend',
             DESC: 'absteigend',
         },
         auth: {
-            auth_check_error: 'Bitte verbinden Sie sich um fortzufahren',
+            auth_check_error: 'Bitte verbinde Dich um fortzufahren',
             user_menu: 'Profil',
             username: 'Benutzername',
             password: 'Passwort',
@@ -150,7 +163,7 @@ const swissgermanMessages = {
                 'Die Übersetzungen für die angegebene Sprache können nicht geladen werden.',
             canceled: 'Aktion abgebrochen',
             logged_out: 'Ihre Sitzung wurde beendet, bitte verbinden Sie sich neu.',
-            not_authorized: "Sie haben für diese Ressource keine Zugriffsrechte.",
+            not_authorized: "Du hast für diese Ressource keine Zugriffsrechte.",
             application_update_available: 'Eine neue Programmversion ist verfügbar...',
         },
         validation: {
@@ -174,7 +187,7 @@ const swissgermanMessages = {
             remove_label_with_name: 'Abfrage "%{name}" entfernen',
             remove_dialog_title: 'Abfrage entfernen?',
             remove_message:
-                'Sind Sie sicher, dass Sie den Eintrag aus der Liste entfernen möchten',
+                'Bist Du sicher, dass Du den Eintrag aus der Liste entfernen möchten',
             help: 'Liste filtern und Abfrage speichern...',
         },
         configurable: {
