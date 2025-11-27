@@ -39,6 +39,9 @@ const swissgermanMessages = {
             toggle_theme: 'Thema umschalten',
             select_columns: 'Spalten',
             update_application: 'Programm neu laden',
+            toggle_theme: 'Hell-/Dunkelmodus umschalten',
+            select_columns: 'Spalten',
+            update_application: 'Anwendung neu laden',
         },
         boolean: {
             true: 'Ja',
@@ -85,7 +88,11 @@ const swissgermanMessages = {
         },
         message: {
             about: 'Über',
+            access_denied:
+                "Du hast nicht die erforderlichen Berechtigungen, um auf diese Seite zuzugreifen",            
             are_you_sure: 'Bist Du sicher?',
+            authentication_error:
+                'Der Authentifizierungsserver hat einen Fehler zurückgegeben, und Ihre Anmeldeinformationen konnten nicht überprüft werden.',
             auth_error:
                 'Beim Validieren des Authentifizierungstokens ist ein Fehler aufgetreten.',
             bulk_delete_content:
@@ -108,6 +115,8 @@ const swissgermanMessages = {
             not_found:
                 'Die Seite konnte nicht gefunden werden.',
             yes: 'Ja',
+            select_all_limit_reached:
+                'Es gibt zu viele Elemente, um sie alle auszuwählen. Nur die ersten %{max} Elemente wurden ausgewählt.',
             unsaved_changes:
                 'Einige Änderungen wurden nicht gespeichert. Bist Du sicher, dass Du diese Seite verlassen wollen?',
             access_denied:
@@ -146,6 +155,7 @@ const swissgermanMessages = {
             user_menu: 'Profil',
             username: 'Benutzername',
             password: 'Passwort',
+            email: 'Email',            
             sign_in: 'Anmelden',
             sign_in_error: 'Fehler bei der Anmeldung',
             logout: 'Abmelden',
@@ -165,6 +175,7 @@ const swissgermanMessages = {
             logged_out: 'Ihre Sitzung wurde beendet, bitte verbinden Sie sich neu.',
             not_authorized: "Du hast für diese Ressource keine Zugriffsrechte.",
             application_update_available: 'Eine neue Programmversion ist verfügbar...',
+            offline: 'Keine Verbindung. Daten konnten nicht abgerufen werden.',
         },
         validation: {
             required: 'Benötigt',
